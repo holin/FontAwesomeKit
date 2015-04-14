@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="iqe-Qz-G2b">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="iqe-Qz-G2b">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -38,7 +38,7 @@
                             <tableViewSection id="QbX-r0-AXg">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hHQ-2T-rST">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hHQ-2T-rST" id="y8G-Xp-zTe">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -55,7 +55,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="V4H-Bp-mVH">
-                                        <rect key="frame" x="0.0" y="108" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="44" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V4H-Bp-mVH" id="RAD-C8-y1x">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -72,7 +72,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="LcW-L3-xUe">
-                                        <rect key="frame" x="0.0" y="152" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="88" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LcW-L3-xUe" id="XLp-xv-kGU">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -118,7 +118,7 @@
             </objects>
             <point key="canvasLocation" x="839" y="-1301"/>
         </scene>
-        <!--App Icon View Controller - App Icons-->
+        <!--App Icons-->
         <scene sceneID="uNC-Wk-deu">
             <objects>
                 <collectionViewController autoresizesArchivedViewToFullSize="NO" id="rbQ-g5-Jee" customClass="AppIconViewController" sceneMemberID="viewController">
@@ -235,7 +235,7 @@
             </objects>
             <point key="canvasLocation" x="839" y="93"/>
         </scene>
-        <!--Navigation Controller - Icon Map-->
+        <!--Icon Map-->
         <scene sceneID="6zp-hX-d7b">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="crK-dn-2cd" sceneMemberID="viewController">
@@ -254,7 +254,7 @@
             </objects>
             <point key="canvasLocation" x="313" y="101"/>
         </scene>
-        <!--Navigation Controller - Kitchen Sink-->
+        <!--Kitchen Sink-->
         <scene sceneID="EHc-lf-VWm">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pg3-1p-4MW" sceneMemberID="viewController">
@@ -273,7 +273,7 @@
             </objects>
             <point key="canvasLocation" x="313" y="-1301"/>
         </scene>
-        <!--Stack Icons View Controller - Stacked Icons-->
+        <!--Stacked Icons-->
         <scene sceneID="Jpl-0n-YXn">
             <objects>
                 <collectionViewController autoresizesArchivedViewToFullSize="NO" id="MRJ-5O-a34" customClass="StackIconsViewController" sceneMemberID="viewController">
